@@ -30,3 +30,6 @@
 # RNF
 1 - o sistem deve ser capaz de ler argumentos de entrada
 2 - o sistema deve ser capaz de reconhecer argumentos como: add, update, delete and list (list tasks done, in progress and not done)
+
+# Observação
+Para saber mais, dê uma olhada em: [Roadmap - task-tracker](https://roadmap.sh/projects/task-tracker)
