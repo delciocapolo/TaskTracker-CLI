@@ -8,7 +8,6 @@ public class CLI {
     Scanner scanner;
     TaskRepository repository;
 
-
     public CLI() {
         this.scanner = new Scanner(System.in);
         this.repository = new TaskRepository();
@@ -60,8 +59,8 @@ public class CLI {
                 System.out.println("O Id é obrigatório");
             }
         } else if (
-                command.getFirst().equals("mark-in-progress") ||
-                command.getFirst().equals("mark-done")
+            command.getFirst().equals("mark-in-progress") ||
+            command.getFirst().equals("mark-done")
         ) {
             if (command.size() <= 1) {
                 System.out.println("O Id é obrigatório");
