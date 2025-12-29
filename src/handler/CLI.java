@@ -77,7 +77,7 @@ public class CLI {
         } else if (command.getFirst().equals("update")) {
             if (command.size() > 2) {
                 int taskId = Integer.parseInt(command.get(1));
-                String description = String.join(" ", command.subList(1, command.size()));
+                String description = String.join(" ", command.subList(2, command.size()));
 
                 this.repository.updateDescription(taskId, description);
             } else {
